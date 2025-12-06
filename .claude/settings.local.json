@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run make-index-files:*)",
+      "Bash(npm run build)",
+      "Bash(npm start -- --listen=0.0.0.0:8080)",
+      "Bash(npm run)",
+      "Bash(node:*)",
+      "Bash(npx electron:*)",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
